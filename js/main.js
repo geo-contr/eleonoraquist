@@ -262,7 +262,8 @@ function () {
     // (e.g., `zoomFactor: 3` will result in a 900 px wide ZoomPane imag
     // if the trigger is displayed at 300 px wide)
 
-    var zoomFactor = options["zoomFactor"] || 3; // A DOM element to append the non-inline ZoomPane to.
+    var zoomFactor = options["zoomFactor"] || 2; // A DOM element to append the non-inline ZoomPane to.
+    // var zoomFactor = options["zoomFactor"] || 3;
     // Required if `inlinePane !== true`.
 
     var paneContainer = options["paneContainer"] === undefined ? document.body : options["paneContainer"]; // When to switch to an inline ZoomPane. This can be a boolean or
