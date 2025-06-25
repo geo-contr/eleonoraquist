@@ -501,16 +501,21 @@ header.header {
 .col__menu-icon {
     margin-top: -5px;
 }
-
-
-/*.no-transition,
-.no-transition * {
-  transition: none !important;
+.modal {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
-.home__bar.--progress{
-  background-color: #f37043;
-  transition: none !important;
-}*/
+@media(min-width: 720px){
+  .modal__image-container {
+    width: 100%;
+    height: 80vh;
+  }
+  .modal__image-container .modal__main{
+  }
+  .modal__image-container .modal__main:hover{
+    width: 100%;
+  }
+}
 
 
