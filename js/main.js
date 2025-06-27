@@ -86,7 +86,7 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/drift-zoom/es/BoundingBox.js":
+/***/ "./BoundingBox.js":
 /*!***************************************************!*\
   !*** ./node_modules/drift-zoom/es/BoundingBox.js ***!
   \***************************************************/
@@ -96,8 +96,8 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BoundingBox; });
-/* harmony import */ var _util_throwIfMissing__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/throwIfMissing */ "./node_modules/drift-zoom/es/util/throwIfMissing.js");
-/* harmony import */ var _util_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/dom */ "./node_modules/drift-zoom/es/util/dom.js");
+/* harmony import */ var _util_throwIfMissing__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/throwIfMissing */ "./throwIfMissing.js");
+/* harmony import */ var _util_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/dom */ "./dom.js");
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -201,7 +201,7 @@ function () {
 
 /***/ }),
 
-/***/ "./node_modules/drift-zoom/es/Drift.js":
+/***/ "./Drift.js":
 /*!*********************************************!*\
   !*** ./node_modules/drift-zoom/es/Drift.js ***!
   \*********************************************/
@@ -211,10 +211,10 @@ function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Drift; });
-/* harmony import */ var _util_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/dom */ "./node_modules/drift-zoom/es/util/dom.js");
-/* harmony import */ var _injectBaseStylesheet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./injectBaseStylesheet */ "./node_modules/drift-zoom/es/injectBaseStylesheet.js");
-/* harmony import */ var _Trigger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Trigger */ "./node_modules/drift-zoom/es/Trigger.js");
-/* harmony import */ var _ZoomPane__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ZoomPane */ "./node_modules/drift-zoom/es/ZoomPane.js");
+/* harmony import */ var _util_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/dom */ "./dom.js");
+/* harmony import */ var _injectBaseStylesheet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./injectBaseStylesheet */ "./injectBaseStylesheet.js");
+/* harmony import */ var _Trigger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Trigger */ "./Trigger.js");
+/* harmony import */ var _ZoomPane__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ZoomPane */ "./ZoomPane.js");
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -441,7 +441,7 @@ Drift.prototype["destroy"] = Drift.prototype.destroy;
 
 /***/ }),
 
-/***/ "./node_modules/drift-zoom/es/Trigger.js":
+/***/ "./Trigger.js":
 /*!***********************************************!*\
   !*** ./node_modules/drift-zoom/es/Trigger.js ***!
   \***********************************************/
@@ -451,8 +451,8 @@ Drift.prototype["destroy"] = Drift.prototype.destroy;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Trigger; });
-/* harmony import */ var _util_throwIfMissing__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/throwIfMissing */ "./node_modules/drift-zoom/es/util/throwIfMissing.js");
-/* harmony import */ var _BoundingBox__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BoundingBox */ "./node_modules/drift-zoom/es/BoundingBox.js");
+/* harmony import */ var _util_throwIfMissing__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/throwIfMissing */ "./throwIfMissing.js");
+/* harmony import */ var _BoundingBox__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BoundingBox */ "./BoundingBox.js");
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -698,7 +698,7 @@ function () {
 
 /***/ }),
 
-/***/ "./node_modules/drift-zoom/es/ZoomPane.js":
+/***/ "./ZoomPane.js":
 /*!************************************************!*\
   !*** ./node_modules/drift-zoom/es/ZoomPane.js ***!
   \************************************************/
@@ -708,8 +708,8 @@ function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ZoomPane; });
-/* harmony import */ var _util_throwIfMissing__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/throwIfMissing */ "./node_modules/drift-zoom/es/util/throwIfMissing.js");
-/* harmony import */ var _util_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/dom */ "./node_modules/drift-zoom/es/util/dom.js");
+/* harmony import */ var _util_throwIfMissing__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/throwIfMissing */ "./throwIfMissing.js");
+/* harmony import */ var _util_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/dom */ "./dom.js");
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -989,7 +989,7 @@ function () {
 
 /***/ }),
 
-/***/ "./node_modules/drift-zoom/es/injectBaseStylesheet.js":
+/***/ "./injectBaseStylesheet.js":
 /*!************************************************************!*\
   !*** ./node_modules/drift-zoom/es/injectBaseStylesheet.js ***!
   \************************************************************/
@@ -1048,6 +1048,8 @@ const RULES = `
 
 */
 var RULES = ".drift-bounding-box,.drift-zoom-pane{position:absolute;pointer-events:none}@keyframes noop{0%{zoom:1}}@-webkit-keyframes noop{0%{zoom:1}}.drift-zoom-pane.drift-open{display:block}.drift-zoom-pane.drift-closing,.drift-zoom-pane.drift-opening{animation:noop 1ms;-webkit-animation:noop 1ms}.drift-zoom-pane{overflow:hidden;width:100%;height:100%;top:0;left:0}.drift-zoom-pane-loader{display:none}.drift-zoom-pane img{position:absolute;display:block;max-width:none;max-height:none}";
+
+// var RULES = ".drift-bounding-box,.drift-zoom-pane{position:absolute;pointer-events:none}@keyframes noop{0%{zoom:1}}@-webkit-keyframes noop{0%{zoom:1}}.drift-zoom-pane.drift-open{display:block}.drift-zoom-pane.drift-closing,.drift-zoom-pane.drift-opening{animation:noop 1ms;-webkit-animation:noop 1ms}.drift-zoom-pane{overflow:hidden;width:100%;height:100%;top:0;left:0}.drift-zoom-pane-loader{display:none}.drift-zoom-pane img{position:absolute;display:block;max-width:none;max-height:none;object-fit:cover;object-position:100% 100%}";
 function injectBaseStylesheet() {
   if (document.querySelector(".drift-base-styles")) {
     return;
@@ -1064,7 +1066,7 @@ function injectBaseStylesheet() {
 
 /***/ }),
 
-/***/ "./node_modules/drift-zoom/es/util/dom.js":
+/***/ "./dom.js":
 /*!************************************************!*\
   !*** ./node_modules/drift-zoom/es/util/dom.js ***!
   \************************************************/
@@ -1098,7 +1100,7 @@ function removeClasses(el, classNames) {
 
 /***/ }),
 
-/***/ "./node_modules/drift-zoom/es/util/throwIfMissing.js":
+/***/ "./throwIfMissing.js":
 /*!***********************************************************!*\
   !*** ./node_modules/drift-zoom/es/util/throwIfMissing.js ***!
   \***********************************************************/
@@ -1115,14 +1117,14 @@ function throwIfMissing() {
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_Symbol.js":
+/***/ "./_Symbol.js":
 /*!****************************************!*\
   !*** ./node_modules/lodash/_Symbol.js ***!
   \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
+var root = __webpack_require__(/*! ./_root */ "./_root.js");
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -1132,16 +1134,16 @@ module.exports = Symbol;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_baseGetTag.js":
+/***/ "./_baseGetTag.js":
 /*!********************************************!*\
   !*** ./node_modules/lodash/_baseGetTag.js ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js"),
-    getRawTag = __webpack_require__(/*! ./_getRawTag */ "./node_modules/lodash/_getRawTag.js"),
-    objectToString = __webpack_require__(/*! ./_objectToString */ "./node_modules/lodash/_objectToString.js");
+var Symbol = __webpack_require__(/*! ./_Symbol */ "./_Symbol.js"),
+    getRawTag = __webpack_require__(/*! ./_getRawTag */ "./_getRawTag.js"),
+    objectToString = __webpack_require__(/*! ./_objectToString */ "./_objectToString.js");
 
 /** `Object#toString` result references. */
 var nullTag = '[object Null]',
@@ -1171,7 +1173,7 @@ module.exports = baseGetTag;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_freeGlobal.js":
+/***/ "./_freeGlobal.js":
 /*!********************************************!*\
   !*** ./node_modules/lodash/_freeGlobal.js ***!
   \********************************************/
@@ -1183,18 +1185,18 @@ var freeGlobal = typeof global == 'object' && global && global.Object === Object
 
 module.exports = freeGlobal;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./global.js")))
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_getRawTag.js":
+/***/ "./_getRawTag.js":
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_getRawTag.js ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js");
+var Symbol = __webpack_require__(/*! ./_Symbol */ "./_Symbol.js");
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -1244,7 +1246,7 @@ module.exports = getRawTag;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_objectToString.js":
+/***/ "./_objectToString.js":
 /*!************************************************!*\
   !*** ./node_modules/lodash/_objectToString.js ***!
   \************************************************/
@@ -1277,14 +1279,14 @@ module.exports = objectToString;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/_root.js":
+/***/ "./_root.js":
 /*!**************************************!*\
   !*** ./node_modules/lodash/_root.js ***!
   \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "./node_modules/lodash/_freeGlobal.js");
+var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "./_freeGlobal.js");
 
 /** Detect free variable `self`. */
 var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
@@ -1297,16 +1299,16 @@ module.exports = root;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/debounce.js":
+/***/ "./debounce.js":
 /*!*****************************************!*\
   !*** ./node_modules/lodash/debounce.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js"),
-    now = __webpack_require__(/*! ./now */ "./node_modules/lodash/now.js"),
-    toNumber = __webpack_require__(/*! ./toNumber */ "./node_modules/lodash/toNumber.js");
+var isObject = __webpack_require__(/*! ./isObject */ "./isObject.js"),
+    now = __webpack_require__(/*! ./now */ "./now.js"),
+    toNumber = __webpack_require__(/*! ./toNumber */ "./toNumber.js");
 
 /** Error message constants. */
 var FUNC_ERROR_TEXT = 'Expected a function';
@@ -1499,7 +1501,7 @@ module.exports = debounce;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/isObject.js":
+/***/ "./isObject.js":
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isObject.js ***!
   \*****************************************/
@@ -1541,7 +1543,7 @@ module.exports = isObject;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/isObjectLike.js":
+/***/ "./isObjectLike.js":
 /*!*********************************************!*\
   !*** ./node_modules/lodash/isObjectLike.js ***!
   \*********************************************/
@@ -1581,15 +1583,15 @@ module.exports = isObjectLike;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/isSymbol.js":
+/***/ "./isSymbol.js":
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isSymbol.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
-    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
+var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./_baseGetTag.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./isObjectLike.js");
 
 /** `Object#toString` result references. */
 var symbolTag = '[object Symbol]';
@@ -1621,14 +1623,14 @@ module.exports = isSymbol;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/now.js":
+/***/ "./now.js":
 /*!************************************!*\
   !*** ./node_modules/lodash/now.js ***!
   \************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
+var root = __webpack_require__(/*! ./_root */ "./_root.js");
 
 /**
  * Gets the timestamp of the number of milliseconds that have elapsed since
@@ -1655,15 +1657,15 @@ module.exports = now;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/toNumber.js":
+/***/ "./toNumber.js":
 /*!*****************************************!*\
   !*** ./node_modules/lodash/toNumber.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js"),
-    isSymbol = __webpack_require__(/*! ./isSymbol */ "./node_modules/lodash/isSymbol.js");
+var isObject = __webpack_require__(/*! ./isObject */ "./isObject.js"),
+    isSymbol = __webpack_require__(/*! ./isSymbol */ "./isSymbol.js");
 
 /** Used as references for various `Number` constants. */
 var NAN = 0 / 0;
@@ -1732,7 +1734,7 @@ module.exports = toNumber;
 
 /***/ }),
 
-/***/ "./node_modules/slick-carousel/slick/slick.js":
+/***/ "./slick.js":
 /*!****************************************************!*\
   !*** ./node_modules/slick-carousel/slick/slick.js ***!
   \****************************************************/
@@ -4753,7 +4755,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 /***/ }),
 
-/***/ "./node_modules/webpack/buildin/global.js":
+/***/ "./global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
   \***********************************/
@@ -4784,7 +4786,7 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./themes/omca/js/main.js":
+/***/ "./main_small.js":
 /*!********************************!*\
   !*** ./themes/omca/js/main.js ***!
   \********************************/
@@ -4795,17 +4797,17 @@ module.exports = g;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "jquery");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var templates_advanced_search__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! templates/advanced-search */ "./themes/omca/js/templates/advanced-search.js");
-/* harmony import */ var templates_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! templates/footer */ "./themes/omca/js/templates/footer.js");
-/* harmony import */ var templates_home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! templates/home */ "./themes/omca/js/templates/home.js");
-/* harmony import */ var templates_section_single__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! templates/section-single */ "./themes/omca/js/templates/section-single.js");
-/* harmony import */ var partials_accordion__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! partials/accordion */ "./themes/omca/js/partials/accordion.js");
-/* harmony import */ var partials_column_nav__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! partials/column-nav */ "./themes/omca/js/partials/column-nav.js");
-/* harmony import */ var partials_image_modal__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! partials/image-modal */ "./themes/omca/js/partials/image-modal.js");
-/* harmony import */ var partials_image_slider__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! partials/image-slider */ "./themes/omca/js/partials/image-slider.js");
-/* harmony import */ var partials_main_nav__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! partials/main-nav */ "./themes/omca/js/partials/main-nav.js");
-/* harmony import */ var partials_read_more__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! partials/read-more */ "./themes/omca/js/partials/read-more.js");
-/* harmony import */ var partials_related_images__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! partials/related-images */ "./themes/omca/js/partials/related-images.js");
+/* harmony import */ var templates_advanced_search__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./templates/advanced-search */ "./advanced-search.js");
+/* harmony import */ var templates_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./templates/footer */ "./footer.js");
+/* harmony import */ var templates_home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./templates/home */ "./home.js");
+/* harmony import */ var templates_section_single__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./templates/section-single */ "./section-single.js");
+/* harmony import */ var partials_accordion__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./partials/accordion */ "./accordion.js");
+/* harmony import */ var partials_column_nav__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./partials/column-nav */ "./column-nav.js");
+/* harmony import */ var partials_image_modal__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./partials/image-modal */ "./image-modal.js");
+/* harmony import */ var partials_image_slider__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./partials/image-slider */ "./image-slider.js");
+/* harmony import */ var partials_main_nav__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./partials/main-nav */ "./main-nav.js");
+/* harmony import */ var partials_read_more__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./partials/read-more */ "./read-more.js");
+/* harmony import */ var partials_related_images__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./partials/related-images */ "./related-images.js");
  // -------------------------------------------------------------------------- //
 // Templates
 // -------------------------------------------------------------------------- //
@@ -4827,7 +4829,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./themes/omca/js/partials/accordion.js":
+/***/ "./accordion.js":
 /*!**********************************************!*\
   !*** ./themes/omca/js/partials/accordion.js ***!
   \**********************************************/
@@ -4855,7 +4857,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 
 /***/ }),
 
-/***/ "./themes/omca/js/partials/column-nav.js":
+/***/ "./column-nav.js":
 /*!***********************************************!*\
   !*** ./themes/omca/js/partials/column-nav.js ***!
   \***********************************************/
@@ -4935,7 +4937,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 
 /***/ }),
 
-/***/ "./themes/omca/js/partials/image-modal.js":
+/***/ "./image-modal.js":
 /*!************************************************!*\
   !*** ./themes/omca/js/partials/image-modal.js ***!
   \************************************************/
@@ -4946,7 +4948,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "jquery");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var drift_zoom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! drift-zoom */ "./node_modules/drift-zoom/es/Drift.js");
+/* harmony import */ var drift_zoom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! drift-zoom */ "./Drift.js");
 
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
@@ -5140,9 +5142,10 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
   var DRIFT = new drift_zoom__WEBPACK_IMPORTED_MODULE_1__["default"]($MAIN_IMAGE[0], args);
 });
 
+
 /***/ }),
 
-/***/ "./themes/omca/js/partials/image-slider.js":
+/***/ "./image-slider.js":
 /*!*************************************************!*\
   !*** ./themes/omca/js/partials/image-slider.js ***!
   \*************************************************/
@@ -5153,9 +5156,9 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "jquery");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! slick-carousel */ "./node_modules/slick-carousel/slick/slick.js");
+/* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! slick-carousel */ "./slick.js");
 /* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(slick_carousel__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/debounce */ "./node_modules/lodash/debounce.js");
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/debounce */ "./debounce.js");
 /* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -5277,7 +5280,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 
 /***/ }),
 
-/***/ "./themes/omca/js/partials/main-nav.js":
+/***/ "./main-nav.js":
 /*!*********************************************!*\
   !*** ./themes/omca/js/partials/main-nav.js ***!
   \*********************************************/
@@ -5318,7 +5321,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 
 /***/ }),
 
-/***/ "./themes/omca/js/partials/read-more.js":
+/***/ "./read-more.js":
 /*!**********************************************!*\
   !*** ./themes/omca/js/partials/read-more.js ***!
   \**********************************************/
@@ -5347,7 +5350,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 
 /***/ }),
 
-/***/ "./themes/omca/js/partials/related-images.js":
+/***/ "./related-images.js":
 /*!***************************************************!*\
   !*** ./themes/omca/js/partials/related-images.js ***!
   \***************************************************/
@@ -5358,9 +5361,9 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "jquery");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! slick-carousel */ "./node_modules/slick-carousel/slick/slick.js");
+/* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! slick-carousel */ "./slick.js");
 /* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(slick_carousel__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/debounce */ "./node_modules/lodash/debounce.js");
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/debounce */ "./debounce.js");
 /* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -5416,7 +5419,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 
 /***/ }),
 
-/***/ "./themes/omca/js/templates/advanced-search.js":
+/***/ "./advanced-search.js":
 /*!*****************************************************!*\
   !*** ./themes/omca/js/templates/advanced-search.js ***!
   \*****************************************************/
@@ -5478,7 +5481,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 
 /***/ }),
 
-/***/ "./themes/omca/js/templates/footer.js":
+/***/ "./footer.js":
 /*!********************************************!*\
   !*** ./themes/omca/js/templates/footer.js ***!
   \********************************************/
@@ -5511,7 +5514,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 
 /***/ }),
 
-/***/ "./themes/omca/js/templates/home.js":
+/***/ "./home.js":
 /*!******************************************!*\
   !*** ./themes/omca/js/templates/home.js ***!
   \******************************************/
@@ -5522,7 +5525,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "jquery");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/debounce */ "./node_modules/lodash/debounce.js");
+/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/debounce */ "./debounce.js");
 /* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__WEBPACK_IMPORTED_MODULE_1__);
 
 // img without change
@@ -5711,7 +5714,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 
 /***/ }),
 
-/***/ "./themes/omca/js/templates/section-single.js":
+/***/ "./section-single.js":
 /*!****************************************************!*\
   !*** ./themes/omca/js/templates/section-single.js ***!
   \****************************************************/
@@ -5756,7 +5759,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/dorthealange/wp-content/themes/omca/js/main.js */"./themes/omca/js/main.js");
+module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/dorthealange/wp-content/themes/omca/js/main.js */"./main_small.js");
 
 
 /***/ }),
@@ -5880,6 +5883,9 @@ if (typeof jQuery == 'undefined') {
                     } else if ($('.modal').length) {
                         console.warn('Drift not loaded');
                     }
+
+
+                    
 
                     // Initialize image slider
                     if ($('.image-slider__slider').length && typeof $.fn.slick !== 'undefined') {
