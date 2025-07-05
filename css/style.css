@@ -517,5 +517,6 @@ header.header {
     width: 100%;
   }
 }
-
-
+.search-css .omca__single {
+    margin-top: 128px;
+}
