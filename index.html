@@ -201,8 +201,27 @@
 	<script type="text/javascript" src="js/utils.js" defer></script> -->
 
 
-	<script type="text/javascript" src="js/script.js" defer></script>
+	<!-- <script type="text/javascript" src="js/script.js" defer></script> -->
 	<!-- <script type="text/javascript" src="js/back-navigation.js" defer></script> -->
+
+
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+		    const disableTriggers = document.querySelectorAll('.menu-item-57, .home__button');
+		    const enableTrigger = document.querySelector('.col__menu-icon');
+		    const target = document.querySelector('.pointer-none');
+
+		    disableTriggers.forEach(trigger => {
+		        trigger.addEventListener('click', () => {
+		            target.style.pointerEvents = 'all';
+		        });
+		    });
+
+		    enableTrigger.addEventListener('click', () => {
+		        target.style.pointerEvents = 'none';
+		    });
+		});
+	</script>
 
 
 
