@@ -1,4 +1,51 @@
-document.addEventListener("DOMContentLoaded", function () {
+// document.addEventListener("DOMContentLoaded", function () {
+//     var swiper = new Swiper('.swiper', {
+//         speed: 300,
+//         slidesPerView: 'auto',
+//         spaceBetween: 20,
+//         pagination: {
+//             el: '.swiper-pagination',
+//             clickable: true,
+//         },
+//         navigation: {
+//             nextEl: '.swiper-button-next',
+//             prevEl: '.swiper-button-prev'
+//         },
+//         loop: true,
+//         parallax: true,
+//         simulateTouch: true,
+//         grabCursor: false,
+//     });
+
+
+//     // Add custom click handler for the entire pagination container
+//     const paginationContainer = document.querySelector('.swiper-pagination');
+//     paginationContainer.addEventListener('click', (event) => {
+//         const bullets = Array.from(paginationContainer.querySelectorAll('.swiper-pagination-bullet'));
+//         const rect = paginationContainer.getBoundingClientRect();
+//         const offsetX = event.clientX - rect.left; // Mouse position relative to the container
+
+//         // Calculate which bullet was clicked based on the mouse position
+//         const bulletWidth = rect.width / bullets.length;
+//         const clickedBulletIndex = Math.floor(offsetX / bulletWidth);
+
+//         // Change the slide to the corresponding bullet index
+//         if (clickedBulletIndex >= 0 && clickedBulletIndex < bullets.length) {
+//             if (swiper.params.loop) {
+//                 swiper.slideToLoop(clickedBulletIndex);
+//             } else {
+//                 swiper.slideTo(clickedBulletIndex);
+//             }
+//         }
+//     });
+// });
+
+
+window.addEventListener("load", function () {
+    initSwiper();
+});
+
+function initSwiper() {
     var swiper = new Swiper('.swiper', {
         speed: 300,
         slidesPerView: 'auto',
@@ -17,19 +64,15 @@ document.addEventListener("DOMContentLoaded", function () {
         grabCursor: false,
     });
 
-
-    // Add custom click handler for the entire pagination container
     const paginationContainer = document.querySelector('.swiper-pagination');
     paginationContainer.addEventListener('click', (event) => {
         const bullets = Array.from(paginationContainer.querySelectorAll('.swiper-pagination-bullet'));
         const rect = paginationContainer.getBoundingClientRect();
-        const offsetX = event.clientX - rect.left; // Mouse position relative to the container
+        const offsetX = event.clientX - rect.left;
 
-        // Calculate which bullet was clicked based on the mouse position
         const bulletWidth = rect.width / bullets.length;
         const clickedBulletIndex = Math.floor(offsetX / bulletWidth);
 
-        // Change the slide to the corresponding bullet index
         if (clickedBulletIndex >= 0 && clickedBulletIndex < bullets.length) {
             if (swiper.params.loop) {
                 swiper.slideToLoop(clickedBulletIndex);
@@ -38,7 +81,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     });
-});
+}
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -162,6 +206,8 @@ observer.observe(menuIcon, { attributes: true, attributeFilter: ['class'] });
 
 // Add scroll event listener
 window.addEventListener('scroll', handleScroll);
+
+
 
 
 
