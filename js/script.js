@@ -1,23 +1,42 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var swiper = new Swiper('.swiper', {
-        speed: 300,
-        slidesPerView: 'auto',
-        spaceBetween: 20,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
-        },
-        loop: true,
-        parallax: true,
-        simulateTouch: true,
-        grabCursor: false,
-        preloadImages: true,
-        observer: true,
-        observeParents: true,
+    // var swiper = new Swiper('.swiper', {
+    //     speed: 300,
+    //     slidesPerView: 'auto',
+    //     spaceBetween: 20,
+    //     pagination: {
+    //         el: '.swiper-pagination',
+    //         clickable: true,
+    //     },
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev'
+    //     },
+    //     loop: true,
+    //     parallax: true,
+    //     simulateTouch: true,
+    //     grabCursor: false
+    // });
+
+
+    const swiperContainer = document.querySelector('.swiper');
+    imagesLoaded(swiperContainer, function () {
+        var swiper = new Swiper('.swiper', {
+            speed: 300,
+            slidesPerView: 'auto',
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: true,
+            parallax: true,
+            simulateTouch: true,
+            grabCursor: false,
+        });
     });
 
 
