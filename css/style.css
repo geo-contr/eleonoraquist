@@ -520,3 +520,14 @@ header.header {
 .search-css .omca__single {
     margin-top: 128px;
 }
+
+
+
+.header__menu-icon{
+  -webkit-tap-highlight-color: transparent; /* Disable tap highlight on iOS */
+  -webkit-touch-callout: none; /* Prevent callout on iOS */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; /* Prevent selection on other devices */
+}
