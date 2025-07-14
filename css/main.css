@@ -556,31 +556,34 @@ template {
   background-repeat: no-repeat;
   background-size: contain; }
 
-@font-face {
+/*@font-face {
   font-family: 'Knockout 50';
   src: url("fonts/knockout/knockout50.otf");
   src: url("fonts/knockout/knockout50.woff2") format("woff2"), url("fonts/knockout/knockout50.woff") format("woff"), url("fonts/knockout/knockout50.ttf") format("truetype");
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal; 
+}
 
 @font-face {
   font-family: 'Knockout 30';
   src: url("fonts/knockout/Knockout-HTF30.otf");
   src: url("fonts/knockout/Knockout-HTF30.woff2") format("woff2"), url("fonts/knockout/Knockout-HTF30.ttf") format("truetype");
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal; 
+}
 
 @font-face {
   font-family: 'Knockout 52';
   src: url("fonts/knockout/knockout52.otf");
   src: url("fonts/knockout/knockout52.woff2") format("woff2"), url("fonts/knockout/knockout52.woff") format("woff"), url("fonts/knockout/knockout52.ttf") format("truetype");
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal; 
+}*/
 
 .-h1, h1 {
   font-size: 50px;
   font-style: normal;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   font-weight: 500;
   line-height: 1.12;
   color: #f37043; }
@@ -592,7 +595,7 @@ template {
 .-h2, h2 {
   font-size: 30px;
   font-style: normal;
-  font-family: "Knockout 52", Impact, serif;
+  font-family: "Knockout";
   font-weight: 500;
   line-height: 1.2; }
   @media screen and (min-width: 60em) {
@@ -603,7 +606,7 @@ template {
 .-h3, h3 {
   font-size: 20px;
   font-style: normal;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   font-weight: 500;
   line-height: 1.2; }
   @media screen and (min-width: 60em) {
@@ -614,7 +617,7 @@ template {
 .-h4, h4 {
   font-size: 20px;
   font-style: normal;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   font-weight: 500;
   line-height: 1.2;
   color: #9f9f9f; }
@@ -626,7 +629,7 @@ template {
 .-h5, h5 {
   font-size: 16px;
   font-style: normal;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   font-weight: 500;
   line-height: 1.1875; }
   @media screen and (min-width: 60em) {
@@ -678,7 +681,7 @@ template {
 .-blockquote, blockquote {
   font-size: 13px;
   font-style: italic;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   font-weight: medium;
   line-height: 1.4165; }
   @media screen and (min-width: 60em) {
@@ -873,7 +876,7 @@ template {
 .breadcrumb {
   display: none;
   color: #4d4d4d;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   text-transform: uppercase;
   text-decoration: none; }
   .breadcrumb:hover {
@@ -1656,7 +1659,7 @@ input[type='email'].newsletter__input {
   border: none;
   text-transform: uppercase;
   background-color: transparent;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   font-size: 16px;
   font-weight: bold;
   padding: 0;
@@ -1755,7 +1758,7 @@ input[type='email'].newsletter__input {
   margin-bottom: 0.5rem;
   font-size: 14px;
   color: #f37043;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   text-transform: uppercase;
   white-space: nowrap; }
   .pagination__heading .icon-arrow {
@@ -2410,7 +2413,7 @@ input[type='email'].newsletter__input {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 26px;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   letter-spacing: 1.08px;
   line-height: 31px;
   -webkit-transition: opacity 1000ms, bottom 1000ms;
@@ -2552,7 +2555,8 @@ input[type='email'].newsletter__input {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: "Knockout 50", Impact, serif; }
+    font-family: "Knockout"; 
+  }
     @media screen and (min-width: 45em) {
       .main-nav li > a {
         letter-spacing: 1.08px; } }
@@ -2577,7 +2581,8 @@ input[type='email'].newsletter__input {
   font-size: 26px;
   color: #000000;
   font-weight: bold;
-  font-family: "Knockout 50", Impact, serif; }
+  font-family: "Knockout"; 
+}
 
 .sharing-menu {
   display: -ms-flexbox;
@@ -2792,7 +2797,7 @@ footer.footer {
 
 .footer__menu-title {
   color: #f37043;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   font-weight: bold;
   font-size: 16px;
   text-transform: uppercase;
@@ -3277,7 +3282,8 @@ header.header {
   -webkit-transition-delay: 1000ms;
        -o-transition-delay: 1000ms;
           transition-delay: 1000ms;
-  font-family: "Knockout 50", Impact, serif; }
+  font-family: "Knockout"; 
+}
   @media screen and (min-width: 45em) {
     .home__sub-desc {
       bottom: -70px;
@@ -3446,7 +3452,8 @@ header.header {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: 'Knockout 50'; }
+  font-family: "Knockout"; 
+}
   @media screen and (min-width: 45em) {
     .pg404__desc {
       font-size: 29px; } }
@@ -3799,7 +3806,7 @@ header.header {
 .section__subsection-title {
   color: #000000;
   text-decoration: none;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   font-weight: lighter; }
   .section__subsection-title:hover {
     text-decoration: underline; }
@@ -3951,7 +3958,7 @@ header.header {
 .image__alternate-title {
   margin: 0 0 1rem 0;
   color: #000000;
-  font-family: "Knockout 50", Impact, serif;
+  font-family: "Knockout";
   line-height: 1; }
   .image__alternate-title .tooltip__tooltip {
     width: 100vw;
@@ -4033,7 +4040,8 @@ header.header {
 
 .image__details-title {
   margin: 0 0 1rem 0;
-  font-family: "Knockout 50", Impact, serif; }
+  font-family: "Knockout"; 
+}
 
 .image__ext-label {
   margin: 0; }
