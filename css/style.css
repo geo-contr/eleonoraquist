@@ -10,12 +10,6 @@ html, body {
     /*min-height: 100vh;*/
     overflow-x: clip;
 }
-body {
-    font-family: 'Helvetica', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-}
-h1, h2, h3 {
-    font-family: 'Knockout', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-}
 .home__background {
     background-image: url('../img/A67.137.34102.1_18DL_19290_B4-1-1600x1066.webp');
 }
