@@ -520,14 +520,12 @@ header.header {
 .search-css .omca__single {
     margin-top: 128px;
 }
-
-
-
-.header__menu-icon{
-  -webkit-tap-highlight-color: transparent; /* Disable tap highlight on iOS */
-  -webkit-touch-callout: none; /* Prevent callout on iOS */
+/* touch screen-ზე კვალის არ დატოვება */
+.header__menu-icon, .header__link, .main-nav li > a, .main-nav__search button, .breadcrumbs, .header__section, .col__logo-img, .col__menu-icon, .colnav__column, .image-slider__slide, .section__subsection-link, .images__arrow.-prev, .images__arrow.-next, .image__image-controls--button, .modal__close, .related-images__arrows .slick-prev, .related-images__arrows .slick-next, .related-images__single, .pagination__page.-prev, .pagination__page.-next, .footer__menu-list li a, .footer__menu-list-title-link{
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none; /* Prevent selection on other devices */
+          user-select: none;
 }
