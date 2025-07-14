@@ -490,7 +490,8 @@ header.header {
   height: 60px;
 }
 .modal__main{
-  height: 2000px;
+  /*height: 2000px;*/
+  height: 100%;
 }
 .colnav__column.-spacer {
     min-height: 95px;
