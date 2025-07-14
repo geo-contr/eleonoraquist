@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'LA Starter Theme';
     src: url('../fonts/la-icons.eot');
     src: url('../fonts/la-icons.eot') format('embedded-opentype'),
@@ -6,6 +6,12 @@
          url('../fonts/la-icons.woff') format('woff'),
          url('../fonts/la-icons.ttf') format('truetype'),
          url('../fonts/la-icons.svg#la-icons') format('svg');
+}*/
+@font-face {
+    font-family: 'LA Starter Theme';
+    src: url('../fonts/la-icons.woff2') format('woff2'),
+         url('../fonts/la-icons.woff') format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: 'Helvetica';
@@ -55,7 +61,7 @@
     font-style: normal;
     font-display: swap;
 }
-@font-face {
+/*@font-face {
     font-family: 'FuturaPTLight';
     src: url('../fonts/FuturaPTLight.eot');
     src: url('../fonts/FuturaPTLight.eot') format('embedded-opentype'),
@@ -63,8 +69,14 @@
          url('../fonts/FuturaPTLight.woff') format('woff'),
          url('../fonts/FuturaPTLight.ttf') format('truetype'),
          url('../fonts/FuturaPTLight.svg#FuturaPTLight') format('svg');
-}
+}*/
 @font-face {
+    font-family: 'FuturaPTLight';
+    src: url('../fonts/FuturaPTLight.woff2') format('woff2'),
+         url('../fonts/FuturaPTLight.woff') format('woff');
+    font-display: swap;
+}
+/*@font-face {
     font-family: 'FuturaPTBook';
     src: url('../fonts/FuturaPTBook.eot');
     src: url('../fonts/FuturaPTBook.eot') format('embedded-opentype'),
@@ -72,8 +84,14 @@
          url('../fonts/FuturaPTBook.woff') format('woff'),
          url('../fonts/FuturaPTBook.ttf') format('truetype'),
          url('../fonts/FuturaPTBook.svg#FuturaPTBook') format('svg');
-}
+}*/
 @font-face {
+    font-family: 'FuturaPTBook';
+    src: url('../fonts/FuturaPTBook.woff2') format('woff2'),
+         url('../fonts/FuturaPTBook.woff') format('woff');
+    font-display: swap;
+}
+/*@font-face {
     font-family: 'Font Awesome 6 Free';
     src: url('../webfonts/fa-brands-400.eot');
     src: url('../webfonts/fa-brands-400.eot') format('embedded-opentype'),
@@ -81,9 +99,15 @@
          url('../webfonts/fa-brands-400.woff') format('woff'),
          url('../webfonts/fa-brands-400.ttf') format('truetype'),
          url('../webfonts/fa-brands-400.svg') format('svg');
+}*/
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    src: url('../webfonts/fa-brands-400.woff2') format('woff2'),
+         url('../webfonts/fa-brands-400.woff') format('woff');
+    font-display: swap;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Font Awesome 6 Free';
     src: url('../webfonts/fa-regular-400.eot');
     src: url('../webfonts/fa-regular-400.eot') format('embedded-opentype'),
@@ -91,9 +115,15 @@
          url('../webfonts/fa-regular-400.woff') format('woff'),
          url('../webfonts/fa-regular-400.ttf') format('truetype'),
          url('../webfonts/fa-regular-400.svg') format('svg');
+}*/
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    src: url('../webfonts/fa-regular-400.woff2') format('woff2'),
+         url('../webfonts/fa-regular-400.woff') format('woff');
+    font-display: swap;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Font Awesome 6 Free';
     src: url('../webfonts/fa-solid-900.eot');
     src: url('../webfonts/fa-solid-900.eot') format('embedded-opentype'),
@@ -101,6 +131,12 @@
          url('../webfonts/fa-solid-900.woff') format('woff'),
          url('../webfonts/fa-solid-900.ttf') format('truetype'),
          url('../webfonts/fa-solid-900.svg') format('svg');
+}*/
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    src: url('../webfonts/fa-solid-900.woff2') format('woff2'),
+         url('../webfonts/fa-solid-900.woff') format('woff');
+    font-display: swap;
 }
 
 /*@font-face {
