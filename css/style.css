@@ -188,7 +188,7 @@ html, body {
 }
 
 .swiper-slide-active img {
-  max-height: 460px;
+  max-height: 453px;
   margin: 0 auto;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -562,3 +562,4 @@ header.header {
           user-select: none;
 
 }
+
