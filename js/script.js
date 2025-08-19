@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var swiper = new Swiper('.swiper', {
         speed: 300,
         slidesPerView: 'auto',
+        // slidesPerView: 6.25,
         spaceBetween: 20,
         pagination: {
             el: '.swiper-pagination',
@@ -18,6 +19,67 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
+    // // Alternative option დაუხვეწავი
+    // var swiper = new Swiper('.swiper', {
+    //     speed: 600,
+    //     slidesPerView: 'auto',
+    //     // slidesPerGroup: 1,
+    //     spaceBetween: 20,
+    //     centeredSlides: false,
+    //     initialSlide: 0,
+    //     pagination: {
+    //         el: '.swiper-pagination',
+    //         clickable: true,
+    //     },
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev'
+    //     },
+    //     loop: true,
+    //     simulateTouch: true,
+    //     grabCursor: false,
+    //     preventClicks: true,
+    //     preventClicksPropagation: true,
+    //     slidesOffsetBefore: 0,
+    //     slidesOffsetAfter: 0,
+    //     freeMode: false,
+    //     slideToClickedSlide: false,
+    //     updateOnWindowResize: true,
+    //     on: {
+    //         init: function () {
+    //             console.log('Swiper initialized. Total slides:', this.slides.length);
+    //             console.log('Slide widths:', Array.from(this.slides).map(slide => slide.offsetWidth));
+    //             console.log('First slide position:', this.slides[0].getBoundingClientRect());
+    //             console.log('Swiper wrapper translate:', this.translate);
+    //             this.update();
+    //             this.slideToLoop(0, 0); // Changed to slideToLoop for loop mode
+    //         },
+    //         slideChange: function () {
+    //             console.log('Slide changed. Active index:', this.activeIndex, 'Translate:', this.translate);
+    //         }
+    //     }
+    // });
+
+    // const nextButton = document.querySelector('.swiper-button-next');
+    // const prevButton = document.querySelector('.swiper-button-prev');
+    
+    // const nextButtonClone = nextButton.cloneNode(true);
+    // nextButton.parentNode.replaceChild(nextButtonClone, nextButton);
+    // const prevButtonClone = prevButton.cloneNode(true);
+    // prevButton.parentNode.replaceChild(prevButtonClone, prevButton);
+    
+    // nextButtonClone.addEventListener('click', () => {
+    //     console.log('Next button clicked at:', new Date().toISOString());
+    //     swiper.slideTo(swiper.activeIndex + 1, 600);
+    // });
+    // prevButtonClone.addEventListener('click', () => {
+    //     console.log('Prev button clicked at:', new Date().toISOString());
+    //     swiper.slideTo(swiper.activeIndex - 1, 600);
+    // });
+
+
+
+
     // Add custom click handler for the entire pagination container
     const paginationContainer = document.querySelector('.swiper-pagination');
     paginationContainer.addEventListener('click', (event) => {
@@ -31,14 +93,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Change the slide to the corresponding bullet index
         if (clickedBulletIndex >= 0 && clickedBulletIndex < bullets.length) {
-            if (swiper.params.loop) {
-                swiper.slideToLoop(clickedBulletIndex);
-            } else {
-                swiper.slideTo(clickedBulletIndex);
-            }
+            swiper.slideToLoop(clickedBulletIndex); // Use slideToLoop for pagination in loop mode
         }
     });
 });
+
+
+
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
